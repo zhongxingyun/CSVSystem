@@ -1,4 +1,3 @@
-# CSVSystem
 CSVSystem README
 ----------------------------
 
