@@ -31,7 +31,7 @@ namespace CSVSystem
         {
             get
             {
-                if (!applicationIsQuitting)
+                if (applicationIsQuitting)
                 {
                     Debug.LogWarning("[Singleton] Instance '" + typeof(T) +
                     "' 应用退出时被删除" +
@@ -41,10 +41,9 @@ namespace CSVSystem
 
                 lock (_lock)
                 {
-                    if (_instance = null)
+                    if (_instance == null)
                     {
                         _instance = FindObjectOfType(typeof(T)) as T;
-
                         if (FindObjectsOfType(typeof(T)).Length > 1)
                         {
                             Debug.LogError("[Singleton] 异常 " +
