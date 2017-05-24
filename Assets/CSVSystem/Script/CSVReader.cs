@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace CSVSystem
 {
+    /// <summary>
+    /// CSV读取类
+    /// </summary>
     public class CSVReader
     {
         /// <summary>
@@ -301,7 +304,7 @@ namespace CSVSystem
                 {
                     for (int x = 0; x < keyNameIndex.Length; x++)
                     {
-                        values[(y * (keyNameIndex.Length - 1)) + x] = rows[y, keyNameIndex[x]];
+                        values[y * keyNameIndex.Length + x] = rows[y, keyNameIndex[x]];
                     }
                 }
                 return values;
