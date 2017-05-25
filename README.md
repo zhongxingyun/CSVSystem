@@ -1,13 +1,13 @@
-CSVSystem README
+Old CSVSystem README
 ----------------------------
 
 
-This is a Unity3D CSV System.
+The same is a unity3D CSV reading tool, a basic read function, but also encapsulates the pre-configured value function.
 
 
 
-CSVSystem 中文说明
+Old CSVSystem 中文说明
 ----------------------------
 
 
-这是一个Unity3D的CSV系统
+同样是一个unity3D的CSV读表工具，有基本读取功能，同时还封装了预配置值功能。
