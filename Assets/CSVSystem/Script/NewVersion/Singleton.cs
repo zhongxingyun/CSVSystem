@@ -55,7 +55,6 @@ namespace CSVSystem
                         {
                             GameObject singleton = new GameObject();
                             _instance = singleton.AddComponent<T>();
-                            //_instance.SingletonInitialize();
 
                             singleton.name = "(singleton)" + typeof(T).ToString();
 
