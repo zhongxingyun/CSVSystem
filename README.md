@@ -1,4 +1,4 @@
-#CSVSystem 中文说明
+# CSVSystem 中文说明
 
 这是一个Unity3D的CSV系统
 
@@ -10,7 +10,7 @@
 1. 主键不能重复。
 2. 读取内容不能带有换行符和逗号。
 
-#CSVSystem README
+# CSVSystem README
 
 This is a Unity3D CSV System
 
