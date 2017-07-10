@@ -2,7 +2,7 @@ CSVSystem README
 ----------------------------
 
 
-TThis is a Unity3D CSV System
+This is a Unity3D CSV System
 
 The new version rewrite the read table function, optimize the storage structure, reduce memory footprint, use more convenient, more standardized code, more comprehensive notes.
 
